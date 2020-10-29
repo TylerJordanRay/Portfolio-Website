@@ -55,7 +55,7 @@ h2{
     width: 85%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@media all and (min-width: 850px){
+@media all and (min-width: 950px){
     .introP{
         flex: 0.75;
     }
@@ -65,6 +65,11 @@ h2{
     }
     .mainContent{
         font-size: 22px;
+    }
+}
+@media all and (min-width: 1100px){
+    .introBox{
+        width: 40%;
     }
 }
 
